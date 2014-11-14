@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DFA7E132CE54796A4F57B6A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEB66D1389D4D75B0C1CF9C /* libPods.a */; };
+		B4212F841A0BF0CE006EF6E7 /* NaVoltaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4212F831A0BF0CE006EF6E7 /* NaVoltaViewController.swift */; };
+		B4573E2919F165B300566684 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4573E2819F165B300566684 /* UIViewExtensions.swift */; };
 		B48CE65B1986B40D00BD8010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CE65A1986B40D00BD8010 /* AppDelegate.swift */; };
 		B48CE65D1986B40D00BD8010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CE65C1986B40D00BD8010 /* ViewController.swift */; };
-		B48CE6601986B40D00BD8010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48CE65E1986B40D00BD8010 /* Main.storyboard */; };
 		B48CE6621986B40D00BD8010 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48CE6611986B40D00BD8010 /* Images.xcassets */; };
 		B48CE66E1986B40D00BD8010 /* PadovaNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CE66D1986B40D00BD8010 /* PadovaNewsTests.swift */; };
+		B4B8EE7919F014BC00B73D8A /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8EE7819F014BC00B73D8A /* Current.swift */; };
+		B4B9E73719ED799200E813D3 /* PrimaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B9E73619ED799200E813D3 /* PrimaryViewController.swift */; };
+		B4B9E73919ED7B1400E813D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B9E73819ED7B1400E813D3 /* Main.storyboard */; };
+		B4B9E73B19ED8DF800E813D3 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B9E73A19ED8DF800E813D3 /* FactBook.swift */; };
+		B4C9A7731A06F70A00A2A9C9 /* AnimatedMaskLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9A7721A06F70A00A2A9C9 /* AnimatedMaskLabel.swift */; };
+		B4D0530519FD8B8D00625FC1 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D0530419FD8B8D00625FC1 /* Launch Screen.xib */; };
+		B4D167831A07A08E00C3DEA4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D167821A07A08E00C3DEA4 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +34,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EEB66D1389D4D75B0C1CF9C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4212F831A0BF0CE006EF6E7 /* NaVoltaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaVoltaViewController.swift; sourceTree = "<group>"; };
+		B4573E2819F165B300566684 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		B476D2251987B9A700DA0B1D /* RSSReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReader-Bridging-Header.h"; sourceTree = "<group>"; };
 		B48CE6551986B40C00BD8010 /* PadovaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadovaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48CE6591986B40D00BD8010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B48CE65A1986B40D00BD8010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B48CE65C1986B40D00BD8010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B48CE65F1986B40D00BD8010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B48CE6611986B40D00BD8010 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B48CE6671986B40D00BD8010 /* PadovaNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PadovaNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48CE66C1986B40D00BD8010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B48CE66D1986B40D00BD8010 /* PadovaNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadovaNewsTests.swift; sourceTree = "<group>"; };
+		B4B8EE7819F014BC00B73D8A /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
+		B4B9E73619ED799200E813D3 /* PrimaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryViewController.swift; sourceTree = "<group>"; };
+		B4B9E73819ED7B1400E813D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B4B9E73A19ED8DF800E813D3 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		B4C9A7721A06F70A00A2A9C9 /* AnimatedMaskLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedMaskLabel.swift; sourceTree = "<group>"; };
+		B4D0530419FD8B8D00625FC1 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		B4D167821A07A08E00C3DEA4 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C37372D9F7904E3987620071 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DFA7E132CE54796A4F57B6A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +75,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		376FE34C691B47D8BFC59FAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB66D1389D4D75B0C1CF9C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B48CE64C1986B40C00BD8010 = {
 			isa = PBXGroup;
 			children = (
+				B4D167861A07A8F300C3DEA4 /* Animation */,
 				B48CE6571986B40C00BD8010 /* PadovaNews */,
 				B48CE66A1986B40D00BD8010 /* PadovaNewsTests */,
 				B48CE6561986B40C00BD8010 /* Products */,
+				C37372D9F7904E3987620071 /* Pods.xcconfig */,
+				376FE34C691B47D8BFC59FAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,10 +108,18 @@
 			isa = PBXGroup;
 			children = (
 				B48CE65A1986B40D00BD8010 /* AppDelegate.swift */,
+				B4573E2819F165B300566684 /* UIViewExtensions.swift */,
 				B48CE65C1986B40D00BD8010 /* ViewController.swift */,
-				B48CE65E1986B40D00BD8010 /* Main.storyboard */,
+				B4B9E73619ED799200E813D3 /* PrimaryViewController.swift */,
+				B4B9E73A19ED8DF800E813D3 /* FactBook.swift */,
+				B4B8EE7819F014BC00B73D8A /* Current.swift */,
+				B4212F831A0BF0CE006EF6E7 /* NaVoltaViewController.swift */,
+				B4D167821A07A08E00C3DEA4 /* AboutViewController.swift */,
 				B48CE6611986B40D00BD8010 /* Images.xcassets */,
+				B4B9E73819ED7B1400E813D3 /* Main.storyboard */,
+				B4D0530419FD8B8D00625FC1 /* Launch Screen.xib */,
 				B48CE6581986B40D00BD8010 /* Supporting Files */,
+				B476D2251987B9A700DA0B1D /* RSSReader-Bridging-Header.h */,
 			);
 			path = PadovaNews;
 			sourceTree = "<group>";
@@ -109,6 +149,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B4D167861A07A8F300C3DEA4 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B4C9A7721A06F70A00A2A9C9 /* AnimatedMaskLabel.swift */,
+			);
+			name = Animation;
+			path = PadovaNews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48CE6711986B40D00BD8010 /* Build configuration list for PBXNativeTarget "PadovaNews" */;
 			buildPhases = (
+				6136A0C4ADB144ED84B2DCB6 /* Check Pods Manifest.lock */,
 				B48CE6511986B40C00BD8010 /* Sources */,
 				B48CE6521986B40C00BD8010 /* Frameworks */,
 				B48CE6531986B40C00BD8010 /* Resources */,
+				31681CD5A4AD4B7FBBB2684E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +209,7 @@
 				TargetAttributes = {
 					B48CE6541986B40C00BD8010 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 72NYN8P4E4;
 					};
 					B48CE6661986B40D00BD8010 = {
 						CreatedOnToolsVersion = 6.0;
@@ -189,8 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48CE6601986B40D00BD8010 /* Main.storyboard in Resources */,
 				B48CE6621986B40D00BD8010 /* Images.xcassets in Resources */,
+				B4B9E73919ED7B1400E813D3 /* Main.storyboard in Resources */,
+				B4D0530519FD8B8D00625FC1 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,13 +256,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31681CD5A4AD4B7FBBB2684E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6136A0C4ADB144ED84B2DCB6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B48CE6511986B40C00BD8010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B48CE65D1986B40D00BD8010 /* ViewController.swift in Sources */,
+				B4B8EE7919F014BC00B73D8A /* Current.swift in Sources */,
+				B4B9E73719ED799200E813D3 /* PrimaryViewController.swift in Sources */,
+				B4B9E73B19ED8DF800E813D3 /* FactBook.swift in Sources */,
+				B4573E2919F165B300566684 /* UIViewExtensions.swift in Sources */,
 				B48CE65B1986B40D00BD8010 /* AppDelegate.swift in Sources */,
+				B4212F841A0BF0CE006EF6E7 /* NaVoltaViewController.swift in Sources */,
+				B4D167831A07A08E00C3DEA4 /* AboutViewController.swift in Sources */,
+				B4C9A7731A06F70A00A2A9C9 /* AnimatedMaskLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,17 +323,6 @@
 			targetProxy = B48CE6681986B40D00BD8010 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B48CE65E1986B40D00BD8010 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B48CE65F1986B40D00BD8010 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B48CE66F1986B40D00BD8010 /* Debug */ = {
@@ -281,6 +363,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PadovaNews/RSSReader-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -316,15 +399,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "PadovaNews/RSSReader-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		B48CE6721986B40D00BD8010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37372D9F7904E3987620071 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PadovaNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -333,9 +419,11 @@
 		};
 		B48CE6731986B40D00BD8010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37372D9F7904E3987620071 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PadovaNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -395,6 +483,7 @@
 				B48CE6731986B40D00BD8010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48CE6741986B40D00BD8010 /* Build configuration list for PBXNativeTarget "PadovaNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +492,7 @@
 				B48CE6761986B40D00BD8010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
