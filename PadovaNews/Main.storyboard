@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hYr-O0-Q2K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="hYr-O0-Q2K">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -107,10 +107,10 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dNe-Pw-c8i" kind="presentation" modalTransitionStyle="crossDissolve" id="I57-Zs-dAB"/>
+                                    <segue destination="bpm-TN-Bqo" kind="presentation" modalTransitionStyle="crossDissolve" id="G8J-NF-3iL"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Na' Volta" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Met-fw-q1J">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ricordate!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Met-fw-q1J">
                                 <rect key="frame" x="205" y="425" width="119" height="40"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="29"/>
                                 <color key="textColor" red="0.42352941176470588" green="0.35686274509803922" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
@@ -214,11 +214,11 @@
                                     <action selector="refresh" destination="hYr-O0-Q2K" eventType="touchUpInside" id="Usu-uy-Xud"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="GqK-lD-kBT">
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="GqK-lD-kBT">
                                 <rect key="frame" x="-10" y="-10" width="20" height="20"/>
                                 <color key="color" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Attento!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2c-Cm-KmA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Atento!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2c-Cm-KmA">
                                 <rect key="frame" x="53" y="425" width="109" height="40"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="29"/>
                                 <color key="textColor" red="0.90196078431372551" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
@@ -661,374 +661,120 @@
             </objects>
             <point key="canvasLocation" x="1096.5" y="1047"/>
         </scene>
-        <!--Na Volta View Controller-->
-        <scene sceneID="9R6-k8-UHm">
+        <!--Cossa go da fare?-->
+        <scene sceneID="5TD-6X-aaU">
             <objects>
-                <viewController id="Xqz-dz-egB" customClass="NaVoltaViewController" customModule="PadovaNews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oLq-xH-h21" customClass="Taccui_nViewController" customModule="PadovaNews" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="VeS-yy-tZQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="I5A-9Y-4fb"/>
+                        <viewControllerLayoutGuide type="top" id="OtW-Tl-0OX"/>
+                        <viewControllerLayoutGuide type="bottom" id="FCW-71-jcE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="A74-DK-6HB">
+                    <view key="view" contentMode="scaleToFill" id="ffH-70-Hqh">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="raM-dG-I9n">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BCx-BX-GeH">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jxm-Ug-6Cd">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <subviews>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pxw-TC-zTa">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                        <subviews>
-                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6g-eI-a1N">
-                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                <state key="normal" image="image">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="0.0" y="0.0" width="280" height="210"/>
-                                                </variation>
-                                                <connections>
-                                                    <segue destination="oqW-8j-nR6" kind="presentation" animates="NO" id="bNf-4d-c1x"/>
-                                                </connections>
-                                            </button>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUv-bN-oGz">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Romesh | Singhabahu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkM-cw-Ihg">
-                                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
-                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                            <rect key="frame" x="81" y="35" width="119" height="17"/>
-                                                        </variation>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prato della valle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yja-N3-Csc">
-                                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
-                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                            <rect key="frame" x="68" y="8" width="144" height="28"/>
-                                                        </variation>
-                                                    </label>
-                                                </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
-                                                <variation key="default">
-                                                    <mask key="subviews">
-                                                        <exclude reference="SkM-cw-Ihg"/>
-                                                        <exclude reference="Yja-N3-Csc"/>
-                                                    </mask>
-                                                </variation>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="0.0" y="0.0" width="280" height="60"/>
-                                                    <mask key="subviews">
-                                                        <include reference="SkM-cw-Ihg"/>
-                                                        <include reference="Yja-N3-Csc"/>
-                                                    </mask>
-                                                </variation>
-                                            </view>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRT-eJ-zTh">
-                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                <color key="backgroundColor" red="0.42352941176470588" green="0.35686274509803922" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
-                                                <inset key="imageEdgeInsets" minX="-16" minY="-5" maxX="0.0" maxY="0.0"/>
-                                                <state key="normal" title="Condividi" image="Send-to">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                    <rect key="frame" x="0.0" y="210" width="280" height="60"/>
-                                                </variation>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <variation key="default">
-                                            <mask key="subviews">
-                                                <exclude reference="R6g-eI-a1N"/>
-                                                <exclude reference="LUv-bN-oGz"/>
-                                                <exclude reference="ZRT-eJ-zTh"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="60" y="172" width="280" height="270"/>
-                                            <mask key="subviews">
-                                                <include reference="R6g-eI-a1N"/>
-                                                <include reference="LUv-bN-oGz"/>
-                                                <include reference="ZRT-eJ-zTh"/>
-                                            </mask>
-                                        </variation>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bda-Ym-VmP">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background empty" translatesAutoresizingMaskIntoConstraints="NO" id="Xf8-06-MvK">
-                                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="0.0" y="0.0" width="400" height="200"/>
-                                                </variation>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Condividi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCC-ns-EsV">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
-                                                <color key="textColor" red="0.63410520042218821" green="0.52506751781213212" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="156" y="8" width="89" height="28"/>
-                                                </variation>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdQ-tN-A4g">
-                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                <state key="normal" backgroundImage="email oval">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="48" y="70" width="87" height="88"/>
-                                                </variation>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOb-L5-xGW">
-                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                <state key="normal" backgroundImage="twitter oval">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="156" y="70" width="87" height="88"/>
-                                                </variation>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyE-6B-HKD">
-                                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                <state key="normal" backgroundImage="fb oval">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="265" y="70" width="87" height="88"/>
-                                                </variation>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXa-Cy-KtC">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                                <color key="textColor" red="0.63410520039999996" green="0.52506751780000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="70" y="152" width="42" height="21"/>
-                                                </variation>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p74-cZ-78K">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                                <color key="textColor" red="0.63410520039999996" green="0.52506751780000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="270" y="152" width="77" height="21"/>
-                                                </variation>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Twitter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZl-40-HoU">
-                                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                                <color key="textColor" red="0.63410520039999996" green="0.52506751780000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                    <rect key="frame" x="175" y="152" width="51" height="21"/>
-                                                </variation>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <variation key="default">
-                                            <mask key="subviews">
-                                                <exclude reference="Xf8-06-MvK"/>
-                                                <exclude reference="hCC-ns-EsV"/>
-                                                <exclude reference="cdQ-tN-A4g"/>
-                                                <exclude reference="hOb-L5-xGW"/>
-                                                <exclude reference="SyE-6B-HKD"/>
-                                                <exclude reference="RXa-Cy-KtC"/>
-                                                <exclude reference="p74-cZ-78K"/>
-                                                <exclude reference="eZl-40-HoU"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="0.0" y="600" width="400" height="200"/>
-                                            <mask key="subviews">
-                                                <include reference="Xf8-06-MvK"/>
-                                                <include reference="hCC-ns-EsV"/>
-                                                <include reference="cdQ-tN-A4g"/>
-                                                <include reference="hOb-L5-xGW"/>
-                                                <include reference="SyE-6B-HKD"/>
-                                                <include reference="RXa-Cy-KtC"/>
-                                                <include reference="p74-cZ-78K"/>
-                                                <include reference="eZl-40-HoU"/>
-                                            </mask>
-                                        </variation>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="800" id="pMD-GH-pC5"/>
-                                    <constraint firstAttribute="width" constant="400" id="sh0-2p-6Gc"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="pxw-TC-zTa"/>
-                                        <exclude reference="Bda-Ym-VmP"/>
-                                    </mask>
-                                    <mask key="constraints">
-                                        <exclude reference="pMD-GH-pC5"/>
-                                        <exclude reference="sh0-2p-6Gc"/>
-                                    </mask>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" id="De1-bu-nar" customClass="Taccui_nCell" customModule="PadovaNews" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="De1-bu-nar" id="8yg-hJ-g7f">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dati" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3Z-9D-6Yj">
+                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-BoldItalic" family="Avenir Next" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="29" y="9" width="194" height="21"/>
+                                                    </variation>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubDati" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOs-7R-A3s">
+                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="29" y="46" width="194" height="21"/>
+                                                    </variation>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6f-nd-9tU">
+                                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                        <rect key="frame" x="205" y="26" width="101" height="21"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.42352941179999998" green="0.35686274509999999" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="D3Z-9D-6Yj"/>
+                                                    <exclude reference="QOs-7R-A3s"/>
+                                                    <exclude reference="B6f-nd-9tU"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="heightClass=regular-widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="D3Z-9D-6Yj"/>
+                                                    <include reference="QOs-7R-A3s"/>
+                                                    <include reference="B6f-nd-9tU"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="B6f-nd-9tU" id="if1-fu-pBw"/>
+                                            <outlet property="descriptionLabel" destination="QOs-7R-A3s" id="fSF-1y-2Am"/>
+                                            <outlet property="taskLabel" destination="D3Z-9D-6Yj" id="9Ms-jf-QUZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="subviews">
-                                        <include reference="pxw-TC-zTa"/>
-                                        <include reference="Bda-Ym-VmP"/>
-                                    </mask>
-                                    <mask key="constraints">
-                                        <include reference="pMD-GH-pC5"/>
-                                        <include reference="sh0-2p-6Gc"/>
-                                    </mask>
-                                </variation>
-                            </view>
+                                <connections>
+                                    <outlet property="dataSource" destination="oLq-xH-h21" id="bkT-KT-Y9h"/>
+                                    <outlet property="delegate" destination="oLq-xH-h21" id="NYW-6T-q7k"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="BCx-BX-GeH" firstAttribute="top" secondItem="A74-DK-6HB" secondAttribute="topMargin" id="5Dz-Xz-4cm"/>
-                            <constraint firstItem="I5A-9Y-4fb" firstAttribute="top" secondItem="BCx-BX-GeH" secondAttribute="bottom" id="7WN-xq-TkO"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="raM-dG-I9n" secondAttribute="trailing" constant="-16" id="BNh-xL-TcI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="BCx-BX-GeH" secondAttribute="trailing" constant="-16" id="HIp-MW-Qqi"/>
-                            <constraint firstItem="raM-dG-I9n" firstAttribute="leading" secondItem="A74-DK-6HB" secondAttribute="leadingMargin" constant="-16" id="LTc-WY-g95"/>
-                            <constraint firstItem="raM-dG-I9n" firstAttribute="top" secondItem="A74-DK-6HB" secondAttribute="topMargin" id="T1X-pA-mVU"/>
-                            <constraint firstItem="I5A-9Y-4fb" firstAttribute="top" secondItem="raM-dG-I9n" secondAttribute="bottom" id="TOv-LK-5UA"/>
-                            <constraint firstItem="BCx-BX-GeH" firstAttribute="leading" secondItem="A74-DK-6HB" secondAttribute="leadingMargin" constant="-16" id="ynp-2H-hDH"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="raM-dG-I9n"/>
-                                <exclude reference="BCx-BX-GeH"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="7WN-xq-TkO"/>
-                                <exclude reference="TOv-LK-5UA"/>
-                                <exclude reference="BNh-xL-TcI"/>
-                                <exclude reference="LTc-WY-g95"/>
-                                <exclude reference="T1X-pA-mVU"/>
-                                <exclude reference="5Dz-Xz-4cm"/>
-                                <exclude reference="HIp-MW-Qqi"/>
-                                <exclude reference="ynp-2H-hDH"/>
+                                <exclude reference="jxm-Ug-6Cd"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="raM-dG-I9n"/>
-                                <include reference="BCx-BX-GeH"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="7WN-xq-TkO"/>
-                                <include reference="TOv-LK-5UA"/>
-                                <include reference="BNh-xL-TcI"/>
-                                <include reference="LTc-WY-g95"/>
-                                <include reference="T1X-pA-mVU"/>
-                                <include reference="5Dz-Xz-4cm"/>
-                                <include reference="HIp-MW-Qqi"/>
-                                <include reference="ynp-2H-hDH"/>
+                                <include reference="jxm-Ug-6Cd"/>
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="fij-ZC-Ghg">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="bE4-dr-hSJ">
-                            <color key="tintColor" red="0.42352941179999998" green="0.35686274509999999" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <navigationItem key="navigationItem" title="Cossa go da fare?" id="JBr-XC-Ic1">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" id="a35-hh-lJQ">
+                            <color key="tintColor" red="0.46075298129999998" green="0.14851998960000001" blue="0.86480686699999998" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="EBt-YU-Omc" kind="unwind" unwindAction="unwindToViewController:" id="8VL-0Q-mVb"/>
+                                <segue destination="hYr-O0-Q2K" kind="presentation" modalTransitionStyle="crossDissolve" id="auj-gi-dj7"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="DK1-eN-0p9">
+                            <color key="tintColor" red="0.46075298129999998" green="0.14851998960000001" blue="0.86480686699999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="jxm-Ug-6Cd" id="qMI-uz-T6N"/>
+                        <segue destination="dAr-ea-ChO" kind="show" identifier="showDetailTaccuin" id="jeD-qu-GhS"/>
+                        <segue destination="3hF-fI-2nv" kind="presentation" identifier="showTaskAdd" id="SFd-L9-C9P"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BCn-GE-fbV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="EBt-YU-Omc" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PD2-SI-Idb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2014.5" y="1859.25"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="JeR-rS-vPR">
-            <objects>
-                <viewController id="oqW-8j-nR6" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DAm-Ya-Z8b"/>
-                        <viewControllerLayoutGuide type="bottom" id="BP4-bS-guX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Em3-nA-JIj">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="TBp-Z8-fTu">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="250"/>
-                                </variation>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbr-I3-CBb">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" backgroundImage="Back button purple">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="20" width="40" height="40"/>
-                                </variation>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Romesh | Singhabahu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0O1-oK-bvh">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
-                                <color key="textColor" red="0.42352941179999998" green="0.35686274509999999" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="100" y="258" width="200" height="28"/>
-                                </variation>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tma-Bl-lux">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" red="0.42352941179999998" green="0.35686274509999999" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                </variation>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="TBp-Z8-fTu"/>
-                                <exclude reference="gbr-I3-CBb"/>
-                                <exclude reference="0O1-oK-bvh"/>
-                                <exclude reference="tma-Bl-lux"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="TBp-Z8-fTu"/>
-                                <include reference="gbr-I3-CBb"/>
-                                <include reference="0O1-oK-bvh"/>
-                                <include reference="tma-Bl-lux"/>
-                            </mask>
-                        </variation>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OGQ-eN-cWT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2883" y="1859.25"/>
+            <point key="canvasLocation" x="2013" y="2091.75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qqc-0D-k4A">
@@ -1050,40 +796,243 @@
             <point key="canvasLocation" x="1066.875" y="133.09859154929578"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="zIT-Tv-Fs3">
+        <scene sceneID="M7X-m2-LuJ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dNe-Pw-c8i" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bpm-TN-Bqo" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="yuM-6g-eCI">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HVQ-xp-WKe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Xqz-dz-egB" kind="relationship" relationship="rootViewController" id="015-6P-N8g"/>
+                        <segue destination="oLq-xH-h21" kind="relationship" relationship="rootViewController" id="ANF-oc-3k1"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="STf-wF-eAq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yki-73-4xS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1096.5" y="1859.25"/>
+            <point key="canvasLocation" x="1116" y="2095"/>
+        </scene>
+        <!--Xonta promemoria-->
+        <scene sceneID="GAG-go-XRx">
+            <objects>
+                <viewController id="dAr-ea-ChO" customClass="TaccuinDetailViewController" customModule="PadovaNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eyA-g0-xx8"/>
+                        <viewControllerLayoutGuide type="bottom" id="SOP-zQ-xP1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pmd-O1-Tc5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xkv-gN-Uik">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="72" width="280" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tMp-Hh-IjS">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="128" width="280" height="30"/>
+                                </variation>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Sh-BX-XY1">
+                                <rect key="frame" x="-160" y="-81" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="443113709.75159103">
+                                    <!--2015-01-16 15:08:29 +0000-->
+                                </date>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="191" width="280" height="162"/>
+                                </variation>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="xkv-gN-Uik"/>
+                                <exclude reference="tMp-Hh-IjS"/>
+                                <exclude reference="0Sh-BX-XY1"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="xkv-gN-Uik"/>
+                                <include reference="tMp-Hh-IjS"/>
+                                <include reference="0Sh-BX-XY1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Xonta promemoria" id="BSD-9r-9Bf">
+                        <barButtonItem key="leftBarButtonItem" title="Cancea" id="2le-gX-4Je">
+                            <color key="tintColor" red="0.46075298129999998" green="0.14851998960000001" blue="0.86480686699999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="cancelButtonTapped:" destination="dAr-ea-ChO" id="KoD-AA-SAN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Fatto!" id="6cO-yg-07W">
+                            <color key="tintColor" red="0.46075298129999998" green="0.14851998960000001" blue="0.86480686699999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="doneBarButtonPressed:" destination="dAr-ea-ChO" id="M8F-cW-uAs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="datiTextField" destination="xkv-gN-Uik" id="yyA-Uh-FiF"/>
+                        <outlet property="dueDataPicker" destination="0Sh-BX-XY1" id="PjU-zE-KkD"/>
+                        <outlet property="subDatiTextField" destination="tMp-Hh-IjS" id="zgB-Ra-n6e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84K-ZF-SUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2893.5" y="2091.75"/>
+        </scene>
+        <!--Add Task View Controller-->
+        <scene sceneID="LiZ-PI-czJ">
+            <objects>
+                <viewController id="3hF-fI-2nv" customClass="AddTaskViewController" customModule="PadovaNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ETN-wm-X3D"/>
+                        <viewControllerLayoutGuide type="bottom" id="bNG-lr-yrh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="euA-49-IdE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0K-Pd-OGK">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Cancea">
+                                    <color key="titleColor" red="0.46075298129999998" green="0.14851998960000001" blue="0.86480686699999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="20" width="53" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cancelButtonTapped:" destination="3hF-fI-2nv" eventType="touchUpInside" id="ZCu-tv-ive"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tEw-xl-HbM">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="84" width="280" height="30"/>
+                                </variation>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tDf-22-46s">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="166" width="280" height="30"/>
+                                </variation>
+                            </textField>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Wi2-dT-PQm">
+                                <rect key="frame" x="-160" y="-81" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="443224162.307697">
+                                    <!--2015-01-17 21:49:22 +0000-->
+                                </date>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="262" width="320" height="162"/>
+                                </variation>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dati" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBJ-lW-kjL">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="58" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubDati" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htz-79-34H">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="146" width="66" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4HO-38-icM">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="21" y="233" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0n3-Uq-oo3">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Xonta">
+                                    <color key="titleColor" red="0.46075298129999998" green="0.14851998960000001" blue="0.86480686699999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="291" y="20" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addTaskButtonTapped:" destination="3hF-fI-2nv" eventType="touchUpInside" id="Vdx-XI-hHK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="q0K-Pd-OGK"/>
+                                <exclude reference="tEw-xl-HbM"/>
+                                <exclude reference="tDf-22-46s"/>
+                                <exclude reference="Wi2-dT-PQm"/>
+                                <exclude reference="KBJ-lW-kjL"/>
+                                <exclude reference="Htz-79-34H"/>
+                                <exclude reference="4HO-38-icM"/>
+                                <exclude reference="0n3-Uq-oo3"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="q0K-Pd-OGK"/>
+                                <include reference="tEw-xl-HbM"/>
+                                <include reference="tDf-22-46s"/>
+                                <include reference="Wi2-dT-PQm"/>
+                                <include reference="KBJ-lW-kjL"/>
+                                <include reference="Htz-79-34H"/>
+                                <include reference="4HO-38-icM"/>
+                                <include reference="0n3-Uq-oo3"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="dueDatePicker" destination="Wi2-dT-PQm" id="CET-yf-Co7"/>
+                        <outlet property="subTaskTextField" destination="tDf-22-46s" id="pgd-7w-0wl"/>
+                        <outlet property="taskTextField" destination="tEw-xl-HbM" id="qrA-1F-Ie3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cC-7F-Op4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2893.5" y="2814.75"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Back button purple" width="80" height="80"/>
-        <image name="Background empty" width="640" height="1146"/>
         <image name="Background-1" width="320" height="568"/>
         <image name="News" width="32" height="32"/>
         <image name="Reminders" width="28" height="32"/>
-        <image name="Send-to" width="19" height="27"/>
         <image name="abaout-me" width="320" height="568"/>
-        <image name="email oval" width="176" height="178"/>
-        <image name="fb oval" width="176" height="178"/>
-        <image name="image" width="800" height="600"/>
         <image name="io-e-jo" width="100" height="100"/>
         <image name="macintosh" width="21" height="25"/>
         <image name="mustache" width="32" height="32"/>
         <image name="rain" width="46" height="35"/>
         <image name="refresh-1" width="30" height="30"/>
-        <image name="twitter oval" width="176" height="178"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="auj-gi-dj7"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5DFA7E132CE54796A4F57B6A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEB66D1389D4D75B0C1CF9C /* libPods.a */; };
-		B4212F841A0BF0CE006EF6E7 /* NaVoltaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4212F831A0BF0CE006EF6E7 /* NaVoltaViewController.swift */; };
 		B4573E2919F165B300566684 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4573E2819F165B300566684 /* UIViewExtensions.swift */; };
 		B48CE65B1986B40D00BD8010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CE65A1986B40D00BD8010 /* AppDelegate.swift */; };
 		B48CE65D1986B40D00BD8010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CE65C1986B40D00BD8010 /* ViewController.swift */; };
@@ -21,6 +20,12 @@
 		B4C9A7731A06F70A00A2A9C9 /* AnimatedMaskLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9A7721A06F70A00A2A9C9 /* AnimatedMaskLabel.swift */; };
 		B4D0530519FD8B8D00625FC1 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D0530419FD8B8D00625FC1 /* Launch Screen.xib */; };
 		B4D167831A07A08E00C3DEA4 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D167821A07A08E00C3DEA4 /* AboutViewController.swift */; };
+		B4E8B2691A695F81004E37DD /* TaccuinDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8B2681A695F81004E37DD /* TaccuinDetailViewController.swift */; };
+		B4E8B26D1A69643A004E37DD /* TaccuinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8B26C1A69643A004E37DD /* TaccuinModel.swift */; };
+		B4F1EA051A6834C2009A5BBE /* TaccuìnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1EA041A6834C2009A5BBE /* TaccuìnViewController.swift */; };
+		B4F1EA071A6838B1009A5BBE /* TaccuìnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1EA061A6838B1009A5BBE /* TaccuìnCell.swift */; };
+		B4F3A85F1A6A85EA00CEAAB4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3A85E1A6A85EA00CEAAB4 /* Date.swift */; };
+		B4F3A8611A6B0D0D00CEAAB4 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F3A8601A6B0D0D00CEAAB4 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		2EEB66D1389D4D75B0C1CF9C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4212F831A0BF0CE006EF6E7 /* NaVoltaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaVoltaViewController.swift; sourceTree = "<group>"; };
 		B4573E2819F165B300566684 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		B476D2251987B9A700DA0B1D /* RSSReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReader-Bridging-Header.h"; sourceTree = "<group>"; };
 		B48CE6551986B40C00BD8010 /* PadovaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadovaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +57,12 @@
 		B4C9A7721A06F70A00A2A9C9 /* AnimatedMaskLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedMaskLabel.swift; sourceTree = "<group>"; };
 		B4D0530419FD8B8D00625FC1 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		B4D167821A07A08E00C3DEA4 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		B4E8B2681A695F81004E37DD /* TaccuinDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaccuinDetailViewController.swift; sourceTree = "<group>"; };
+		B4E8B26C1A69643A004E37DD /* TaccuinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaccuinModel.swift; sourceTree = "<group>"; };
+		B4F1EA041A6834C2009A5BBE /* TaccuìnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TaccuìnViewController.swift"; sourceTree = "<group>"; };
+		B4F1EA061A6838B1009A5BBE /* TaccuìnCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TaccuìnCell.swift"; sourceTree = "<group>"; };
+		B4F3A85E1A6A85EA00CEAAB4 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B4F3A8601A6B0D0D00CEAAB4 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		C37372D9F7904E3987620071 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,13 +117,13 @@
 		B48CE6571986B40C00BD8010 /* PadovaNews */ = {
 			isa = PBXGroup;
 			children = (
+				B4F3A85D1A6A85A400CEAAB4 /* Taccuin */,
 				B48CE65A1986B40D00BD8010 /* AppDelegate.swift */,
 				B4573E2819F165B300566684 /* UIViewExtensions.swift */,
 				B48CE65C1986B40D00BD8010 /* ViewController.swift */,
 				B4B9E73619ED799200E813D3 /* PrimaryViewController.swift */,
 				B4B9E73A19ED8DF800E813D3 /* FactBook.swift */,
 				B4B8EE7819F014BC00B73D8A /* Current.swift */,
-				B4212F831A0BF0CE006EF6E7 /* NaVoltaViewController.swift */,
 				B4D167821A07A08E00C3DEA4 /* AboutViewController.swift */,
 				B48CE6611986B40D00BD8010 /* Images.xcassets */,
 				B4B9E73819ED7B1400E813D3 /* Main.storyboard */,
@@ -156,6 +166,19 @@
 			);
 			name = Animation;
 			path = PadovaNews;
+			sourceTree = "<group>";
+		};
+		B4F3A85D1A6A85A400CEAAB4 /* Taccuin */ = {
+			isa = PBXGroup;
+			children = (
+				B4F1EA041A6834C2009A5BBE /* TaccuìnViewController.swift */,
+				B4F3A8601A6B0D0D00CEAAB4 /* AddTaskViewController.swift */,
+				B4E8B2681A695F81004E37DD /* TaccuinDetailViewController.swift */,
+				B4E8B26C1A69643A004E37DD /* TaccuinModel.swift */,
+				B4F3A85E1A6A85EA00CEAAB4 /* Date.swift */,
+				B4F1EA061A6838B1009A5BBE /* TaccuìnCell.swift */,
+			);
+			name = Taccuin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,13 +319,18 @@
 			files = (
 				B48CE65D1986B40D00BD8010 /* ViewController.swift in Sources */,
 				B4B8EE7919F014BC00B73D8A /* Current.swift in Sources */,
+				B4F1EA071A6838B1009A5BBE /* TaccuìnCell.swift in Sources */,
+				B4E8B2691A695F81004E37DD /* TaccuinDetailViewController.swift in Sources */,
+				B4F1EA051A6834C2009A5BBE /* TaccuìnViewController.swift in Sources */,
+				B4E8B26D1A69643A004E37DD /* TaccuinModel.swift in Sources */,
 				B4B9E73719ED799200E813D3 /* PrimaryViewController.swift in Sources */,
 				B4B9E73B19ED8DF800E813D3 /* FactBook.swift in Sources */,
 				B4573E2919F165B300566684 /* UIViewExtensions.swift in Sources */,
 				B48CE65B1986B40D00BD8010 /* AppDelegate.swift in Sources */,
-				B4212F841A0BF0CE006EF6E7 /* NaVoltaViewController.swift in Sources */,
 				B4D167831A07A08E00C3DEA4 /* AboutViewController.swift in Sources */,
+				B4F3A85F1A6A85EA00CEAAB4 /* Date.swift in Sources */,
 				B4C9A7731A06F70A00A2A9C9 /* AnimatedMaskLabel.swift in Sources */,
+				B4F3A8611A6B0D0D00CEAAB4 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +440,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PadovaNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -425,6 +454,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PadovaNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

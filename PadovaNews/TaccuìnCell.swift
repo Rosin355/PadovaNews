@@ -10,6 +10,12 @@ import UIKit
 
 class Taccui_nCell: UITableViewCell {
 
+    @IBOutlet weak var taskLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

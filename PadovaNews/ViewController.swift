@@ -87,7 +87,7 @@ class ViewController: UITableViewController, MWFeedParserDelegate {
             cell.backgroundColor = UIColor.clearColor()
         } else {
             cell.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.2)
-            cell.textLabel.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.0)
+            cell.textLabel?.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.0)
         }
         return cell
     }
@@ -106,10 +106,10 @@ class ViewController: UITableViewController, MWFeedParserDelegate {
     
     func configureCell (cell: UITableViewCell, atIndexPath indexPath:NSIndexPath) {
         let item = self.items [indexPath.row] as MWFeedItem
-        cell.textLabel.text = item.title
-        cell.textLabel.font = UIFont.systemFontOfSize(14.0)
-        cell.textLabel.numberOfLines = 0
-        cell.textLabel.textColor = UIColor.blackColor()
+        cell.textLabel?.text = item.title
+        cell.textLabel?.font = UIFont.systemFontOfSize(14.0)
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.textColor = UIColor.blackColor()
     }
     
     
